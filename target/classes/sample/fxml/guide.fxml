@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.Guide">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1243.0" layoutX="-69.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="269.0" fitWidth="298.0" layoutX="238.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/wasd.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="147.0" layoutX="367.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/dr3.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="107.0" layoutX="479.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/dr1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="149.0" layoutX="132.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/dr4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="127.0" layoutX="353.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 80;">
+         <image>
+            <Image url="@../../assets/images/dr2.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <Label layoutX="498.0" layoutY="153.0" prefHeight="42.0" prefWidth="127.0" text="Move Up" textFill="#e10d0d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="596.0" layoutY="308.0" prefHeight="42.0" prefWidth="158.0" text="Move Right" textFill="#e10d0d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="341.0" layoutY="478.0" prefHeight="42.0" prefWidth="158.0" text="Move Down" textFill="#e10d0d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="386.0" prefHeight="42.0" prefWidth="171.0" text="Move Left" textFill="#e10d0d">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="145.0" text="Movement" textFill="#404ecc">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="46.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="783.0" layoutY="519.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/space.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="149.0" layoutX="783.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 60;">
+         <image>
+            <Image url="@../../assets/images/dr4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="618.0" layoutY="422.0" prefHeight="42.0" prefWidth="171.0" text="Shoot Bullet" textFill="#890a7c">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="226.0" fitWidth="243.0" layoutX="776.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/plan.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="648.0" layoutY="98.0" text="Guide the keys" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Label>
+      <ImageView fitHeight="54.0" fitWidth="75.0" layoutX="51.0" layoutY="585.0" onMouseClicked="#goMainMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assets/images/home.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

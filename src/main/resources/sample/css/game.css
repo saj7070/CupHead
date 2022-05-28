@@ -1,0 +1,6 @@
+.progressBar{
+    -fx-background-color: green;
+    -fx-border-color: green;
+    -fx-progress-color: green;
+    -fx-accent: green;
+}
